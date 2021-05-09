@@ -1,0 +1,633 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T13:08:25.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2885938800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Take a screenshot of radio button selection",
+        "description": "",
+        "id": "radio-button-test-and-take-a-screenshot;take-a-screenshot-of-radio-button-selection",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3190376300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95861400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612573200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check \u003cthis option\u003e",
+            "match": {
+              "location": "stepDefs.CheckBoxSteps.checkThisOption(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "peach"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 705476800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Take a screenshot with \u003cthisName\u003e",
+            "match": {
+              "location": "stepDefs.ScreenshotStep.takeAScreenshotWithThisName(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "peach_check_snapshot"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@checkbox"
+          }
+        ]
+      }
+    ],
+    "name": "radio button test and take a screenshot",
+    "description": "",
+    "id": "radio-button-test-and-take-a-screenshot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CheckBoxTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "navigate to practice page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 713591100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115934400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T13:08:33.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 193889200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Take a screenshot of radio button selection",
+        "description": "",
+        "id": "radio-button-test-and-take-a-screenshot;take-a-screenshot-of-radio-button-selection",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 427806500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select benz option at dropdown",
+            "match": {
+              "location": "stepDefs.DropDownSteps.iSelectFromTheListOfOptions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249261200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Take a screenshot with \u003cthisName\u003e",
+            "match": {
+              "location": "stepDefs.ScreenshotStep.takeAScreenshotWithThisName(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "benz_option_snapshot"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@dropdown"
+          }
+        ]
+      }
+    ],
+    "name": "radio button test and take a screenshot",
+    "description": "",
+    "id": "radio-button-test-and-take-a-screenshot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DropDownTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "navigate to practice page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 732594700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87950200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T13:08:34.951Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9991900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigating to practice page",
+        "description": "",
+        "id": "negative-test-page-title-expected-wrong;navigating-to-practice-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Practice Page Title] but found [Home Page title]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat org.testng.Assert.assertEquals(Assert.java:585)\r\n\tat stepDefs.LoginDefinitions.iAssertThePageTitle(LoginDefinitions.java:71)\r\n\tat ✽.I assert the \u003cpage title\u003e(file:///C:/Users/14696/Desktop/com.letscodeIT2021/src/test/resources/features/NegativeTest_PageTitle.feature:12)\r\n",
+              "duration": 4996400,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I assert the \u003cpage title\u003e",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iAssertThePageTitle(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Home Page title",
+                  "Practice Page Title"
+                ]
+              },
+              {
+                "cells": [
+                  "Home  Let\u0027s Kode It",
+                  "Practice Let\u0027s Kode It"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Negative Test Page title expected wrong",
+    "description": "",
+    "id": "negative-test-page-title-expected-wrong",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NegativeTest_PageTitle.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T13:08:35.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16991300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navigating to practice page",
+        "description": "",
+        "id": "navigate-to-let-s-kode-it-website-then-open-practice-page;navigating-to-practice-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 624640600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111872200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11992100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I assert the page title",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iAssertThePageTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to let\u0027s kode it website then open practice page",
+    "description": "",
+    "id": "navigate-to-let-s-kode-it-website-then-open-practice-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PositiveTest_PageTitle.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T13:08:36.642Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13992000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navigating to practice page",
+        "description": "",
+        "id": "navigate-to-let-s-kode-it-website-then-open-practice-page;navigating-to-practice-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 744009300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93946400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31981900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I assert the page title",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iAssertThePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1051969300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Take a screenshot",
+            "match": {
+              "location": "stepDefs.ScreenshotStep.iTakeAScreenshotOfThePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@snapshot"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to let\u0027s kode it website then open practice page",
+    "description": "",
+    "id": "navigate-to-let-s-kode-it-website-then-open-practice-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ScreenshotTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T13:08:38.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8993800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Take a screenshot of radio button selection",
+        "description": "",
+        "id": "radio-button-test-and-take-a-screenshot;take-a-screenshot-of-radio-button-selection",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.LoginDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 926964200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the letscodeit homepage",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86690900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to practice page",
+            "match": {
+              "location": "stepDefs.LoginDefinitions.iNavigateToPracticePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486138700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "BMW radio button test",
+            "match": {
+              "location": "stepDefs.RadioButtonSteps.iClickOnBMWButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 243152500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Take a screenshot with \u003cthisName\u003e",
+            "match": {
+              "location": "stepDefs.ScreenshotStep.takeAScreenshotWithThisName(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bmw_radio_snapshot"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@radio"
+          }
+        ]
+      }
+    ],
+    "name": "radio button test and take a screenshot",
+    "description": "",
+    "id": "radio-button-test-and-take-a-screenshot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/radioButtonTest.feature",
+    "tags": []
+  }
+]
